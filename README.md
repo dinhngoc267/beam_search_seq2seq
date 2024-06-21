@@ -9,7 +9,7 @@ But the implementation of Beam Search seems not correct:
 - And finding end nodes is not correct
   
 <div align="center">
-  <img src="https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/d4bc19da-f12b-4a6e-b6dd-4fa5f69a24e5" width="400">
+  <img src="https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/fe8a7c46-e50a-47d6-9e1b-68250d134bd7" width="400">
 </div>
 
 
