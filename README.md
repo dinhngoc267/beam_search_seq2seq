@@ -16,3 +16,8 @@ But the implementation of Beam Search seems not correct:
 I fixed a little bit in his code. And the performance of my Pointer Generator is increased from 3 to 5 points bleu score.
 
 My code can be modified to use in any RNN-based Seq2Seq architecture 
+
+### Reference:
+
+- https://github.com/jojonki/BeamSearch/tree/master
+- http://nlp.seas.harvard.edu/seq2seq-talk/slidescmu.pdf
