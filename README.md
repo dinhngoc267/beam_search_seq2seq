@@ -9,8 +9,9 @@ But the implementation of Beam Search seems not correct:
 - And finding end nodes is not correct
   
 <div align="center">
-  <img src="https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/5d6f778d-dad7-4916-a64c-308cdebd6728" width="400">
+  <img src="https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/d4bc19da-f12b-4a6e-b6dd-4fa5f69a24e5" width="400">
 </div>
+
 
 I fixed a little bit in his code. And the performance of my Pointer Generator is increased from 3 to 5 points bleu score.
 
