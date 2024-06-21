@@ -8,7 +8,7 @@ But the implementation of Beam Search seems not correct:
 - About definition of a step 
 - And finding end nodes is not correct
   
-![Blank diagram(1)](https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/2ac67e4f-3b19-4ca6-b8a7-0de3a33b9923)
+![Blank diagram(1)](https://github.com/dinhngoc267/beam_search_seq2seq/assets/49720223/2ac67e4f-3b19-4ca6-b8a7-0de3a33b9923 | width=100)
 
 
 
