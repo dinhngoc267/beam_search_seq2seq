@@ -324,11 +324,13 @@ class PointerDecoder(nn.Module):
                 # extend current end nodes to compare scores
                 if len(end_nodes) > 0:
                     step_t_nodes.extend(end_nodes)
-                # sort by score of top nodes at step t. nodes always have the past end nodes.
-                # it means if nodes contains one end node which is <eos> then in the next while loop,
-                # it only runs forward to find topk - 1 end nodes.
+                # sort by score of top nodes at step t. nodes always contains end nodes (if have any).
+                # e.g if nodes contains one end node which is <eos> then in the next while loop,
+                # it only runs forward to find topk - 1 end nodes (save more running time).
                 nodes = sorted(step_t_nodes, key=lambda x: x[0])[:topk]
                 step += 1
+                # Node: all the end nodes always in nodes after sort and get top k
+                # Because: A < A + positive numer (notice -node.eval())
 
             # if len(end_nodes) == 0:
             #     # end_nodes = [heappop(nodes) for _ in range(topk)]
