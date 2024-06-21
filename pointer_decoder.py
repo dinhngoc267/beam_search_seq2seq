@@ -278,7 +278,6 @@ class PointerDecoder(nn.Module):
                     decoder_hidden_state = current_node.hidden_state
                     attn_buffer = current_node.attn_buffer
 
-                    # !BUG HERE
                     if current_node.token_id == eos_id and current_node.prev_node is not None:  # reach eos token
                         end_nodes.append((score, id(current_node), current_node))
                         # if we reach maximum # of sequences required
