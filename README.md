@@ -4,7 +4,7 @@ This code is improved from [jojonki's repository](https://github.com/jojonki/Bea
 
 The idea of his approach is nice which uses Node and Linked List structure. 
 
-But the implementation of Beam Search seems not true: 
+But the implementation of Beam Search seems not correct: 
 - About definition of a step 
 - And finding end nodes is not correct 
 
