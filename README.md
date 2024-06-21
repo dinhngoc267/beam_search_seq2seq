@@ -8,7 +8,7 @@ But the implementation of Beam Search seems not correct:
 - About definition of a step 
 - And finding end nodes is not correct 
 
-![Blank diagram.png](..%2F..%2F..%2FDownloads%2FBlank%20diagram.png)
+![Blank diagram.png]([..%2F..%2F..%2FDownloads%2FBlank%20diagram.png](https://ibb.co/sW0Gnj2))
 
 I fixed a little bit in his code. And the performance of my Pointer Generator is increased from 3 to 5 points bleu score.
 
